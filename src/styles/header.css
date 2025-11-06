@@ -1,0 +1,222 @@
+header {
+    background-color: #2A2A2A;
+    padding: 12px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #c47b22;
+    min-width: 630px;
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        #span-logo {
+            color: #FB6700;
+        }
+
+        ul {
+            display: none;
+            list-style: none;
+            flex-direction: column;
+            gap: 0.7rem;
+            width: 100%;
+            position: absolute;
+            top: 95%;
+            background-color: #2A2A2A;
+            left: 0;
+            padding: 1rem;
+            border-bottom: 3px solid #c47b22;
+
+            &.show {
+                display: flex;
+            }
+
+            li {
+                text-align: center;
+
+                a {
+                    color: #F5F5F5;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    transition: all 0.5s ease;
+
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 0;
+                        height: 1px;
+                        background-color: #FB6700;
+                        bottom: 0;
+                        left: 0;
+                        transition: width 0.5s ease;
+                    }
+
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .btn-whatsapp {
+            display: none;
+        }
+
+    }
+
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.btn-mobile {
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+
+.btn-whatsapp {
+    background-color: #1b9e4b;
+    color: #F5F5F5;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #1fb456;
+    }
+}
+
+.logo-whatsapp {
+    width: 2rem;
+}
+
+.logo {
+    width: 70px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.btn-mobile {
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+
+.btn-whatsapp {
+    background-color: #1b9e4b;
+    color: #F5F5F5;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #1fb456;
+    }
+}
+
+.logo-whatsapp {
+    width: 2rem;
+}
+
+.logo {
+    width: 70px;
+}
+
+#div-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#nome-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F5F5F5;
+    margin-left: 3px;
+}
+
+#div-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#nome-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F5F5F5;
+    margin-left: 3px;
+}
+
+@media(min-width: 900px) {
+    header {
+        .navbar {
+            .btn-mobile {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                gap: 1.5rem;
+                width: auto;
+                padding: 0;
+                border: none;
+            }
+
+            .btn-whatsapp {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+@media(min-width: 900px) {
+    header {
+        .navbar {
+            .btn-mobile {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                gap: 1.5rem;
+                width: auto;
+                padding: 0;
+                border: none;
+            }
+
+            .btn-whatsapp {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
