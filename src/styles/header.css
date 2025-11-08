@@ -39,7 +39,7 @@ header {
                 a {
                     color: #F5F5F5;
                     text-decoration: none;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 500;
                     transition: all 0.5s ease;
 
@@ -180,34 +180,7 @@ header {
                 width: auto;
                 padding: 0;
                 border: none;
-            }
 
-            .btn-whatsapp {
-                display: flex;
-                align-items: center;
-                gap: 5px;
-                text-decoration: none;
-            }
-
-        }
-    }
-}
-
-@media(min-width: 900px) {
-    header {
-        .navbar {
-            .btn-mobile {
-                display: none;
-            }
-
-            ul {
-                display: flex;
-                flex-direction: row;
-                position: static;
-                gap: 1.5rem;
-                width: auto;
-                padding: 0;
-                border: none;
             }
 
             .btn-whatsapp {

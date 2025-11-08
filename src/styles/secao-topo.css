@@ -19,29 +19,37 @@
 }
 
 .secao-topo p {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     margin-bottom: 2.5rem;
     color: #efe7b0;
     font-weight: bold;
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-}
-
-#btn-secao-topo{
+.btn-secao-topo {
     text-decoration: none;
     color: #1a1a1a;
     background-color: #FF8C00;
     padding: 0.8rem 2rem;
     border-radius: 8px;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     transition: all 0.3s;
 }
 
-#btn-secao-topo:hover{
+.btn-secao-topo:hover {
     background-color: #f0a242;
+}
+
+@media (min-width: 768px) {
+
+    .btn-secao-topo {
+        font-size: 1.1rem;
+    }
+
+    .secao-topo p {
+        font-size: 1.25rem;
+        margin-bottom: 2.5rem;
+        color: #efe7b0;
+        font-weight: bold;
+    }
 }

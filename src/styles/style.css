@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(../styles/header.css);
 @import url(/src/styles/secao-topo.css);
+@import url(/src/styles/produtos-home.css);
 
 * {
     margin: 0;
@@ -9,7 +10,66 @@
     font-family: "Roboto", sans-serif;
 }
 
-body{
-    background-color: #1a1a1a;
+body {
+    background-color: #2A2A2A;
 }
 
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #FF8C00;
+    margin: 2rem;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    background-color: #1A1A1A;
+    margin-top: 2rem;
+    min-width: 630px;
+}
+
+#mapa {
+    width: 35rem;
+    border-radius: 15px;
+}
+
+.site-footer {
+    min-width: 630px;
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid #333;
+}
+
+.site-footer p {
+    color: #BFB88A;
+}
+
+@media (min-width: 768px) {
+
+    h3 {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .titulo-secao {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+        color: #FF8C00;
+        margin: 2rem;
+    }
+}
