@@ -75,7 +75,7 @@
     .text p {
         margin-top: 1rem;
         font-size: 1.3rem;
-        line-height: 1.5rem;
+        line-height: 1.6rem;
     }
 
     #sobre{
@@ -93,6 +93,10 @@
     #perfil-home-2{
         display: none;
     }
+    
+    #p-meio-sobre {
+    line-height: 2rem;
+}
 
     /*.sobre-content img {
         flex: 1;
