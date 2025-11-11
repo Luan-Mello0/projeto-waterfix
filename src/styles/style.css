@@ -5,9 +5,12 @@
 @import url(/src/styles/produtos-home.css);
 @import url(/src/styles/footer.css);
 @import url(/src/styles/secao-sobre.css);
-@import url(/src/styles/servicos.css);
+<<<<<<< Updated upstream
+=======
+@import url(/src/styles/servico.css);
 
 
+>>>>>>> Stashed changes
 
 * {
     margin: 0;
