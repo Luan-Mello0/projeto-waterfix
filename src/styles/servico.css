@@ -1,0 +1,28 @@
+/* src/styles/servicos.css */
+
+#servicos-detalhe {
+    padding: 50px 0 80px 0; 
+    background-color: #1A1A1A; /* Fundo bem escuro */
+    min-width: 630px;
+    min-height: 80vh; 
+}
+
+.subtitulo-secao {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #efe7b0; 
+    margin-bottom: 4rem; 
+    font-weight: bold;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Os estilos para .grid-container.about-us, .about-card, 
+   .about-card-img, .about-card-text, .img-after, .reverse, etc.
+   já devem estar no seu arquivo 'secao-sobre.css', 
+   que é importado no 'style.css' principal.
+   
+   Por isso, este arquivo 'servicos.css' fica quase vazio,
+   apenas com os estilos específicos da seção de serviços.
+*/
