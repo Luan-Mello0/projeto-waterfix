@@ -5,6 +5,8 @@
 @import url(/src/styles/produtos-home.css);
 @import url(/src/styles/footer.css);
 @import url(/src/styles/secao-sobre.css);
+@import url(/src/styles/servico.css);
+@import url(/src/styles/produtos.css);
 
 * {
     margin: 0;
