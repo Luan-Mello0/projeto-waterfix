@@ -16,7 +16,6 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    /* 1 coluna em mobile */
     gap: 1.5rem;
 }
 
@@ -27,6 +26,7 @@
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
 }
 
 .card:hover {
