@@ -61,10 +61,26 @@
     color: #e0b176;
 }
 
+.sobre-content .text {
+    order: 1;
+}
+
+.sobre-content img {
+    order: 2;
+}
+
 @media (min-width: 768px) {
 
     .sobre-content {
         flex-direction: row;
+    }
+
+    .sobre-content .text {
+        order: 0;
+    }
+
+    .sobre-content img {
+        order: 0;
     }
 
     .sobre-content .text {
