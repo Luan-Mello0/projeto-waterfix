@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/servico.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512/2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,7 +32,8 @@
                     <a href="#">Produtos</a>
                 </li>
                 <li>
-                    <a href="servicos.html">Serviços</a> </li>
+                    <a href="servicos.html">Serviços</a> 
+                </li>
                 <li>
                     <a href="#">Sobre nós</a>
                 </li>
@@ -47,65 +49,103 @@
     </header>
 
     <main>
-        <section id="sobre">
-            <div class="container">
-                <h2 class="titulo-secao">Nossos Serviços de Restauração</h2>
-                <p style="text-align: center; font-size: 1.4rem; color: #efe7b0; margin-bottom: 4rem; font-weight: bold; max-width: 600px; margin-left: auto; margin-right: auto;">
-                    Transformando o antigo em novo, com a paixão e o cuidado que seu veículo merece.
-                </p>
-                
-                <div class="sobre-content">
-                    <img src="/src/images/Painel.jpg" alt="Restauração de Painel (Antes e Depois)" class="imagens-home">
-                    <div class="text">
-                        <h3 class="sub-titulo-sobre">Restauração de Painéis (Tabelier)</h3>
+    <section id="sobre">
+        <div class="container">
+            <h2 class="titulo-secao">Nossos Serviços</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: #efe7b0; margin-bottom: 4rem; font-weight: bold; max-width: 700px; margin: 0 auto 60px auto;">
+                Detalhes que fazem a diferença: confira nossas restaurações lado a lado.
+            </p>
+            
+            <div class="services-container">
+
+                <div class="service-row-card">
+                    <div class="service-img-wrapper">
+                        <div class="img-half">
+                            <img src="src/images/Painel-antes.webp" alt="Painel Antes">
+                            <div class="status-label">Antes</div>
+                        </div>
+                        <div class="img-half">
+                            <img src="src/images/Paine-depois.webp" alt="Painel Depois">
+                            <div class="status-label">Depois</div>
+                        </div>
+                    </div>
+                    <div class="service-text-wrapper">
+                        <h3>Painéis (Tabelier)</h3>
                         <p>
-                            O tempo e o desgaste podem danificar seriamente o painel do seu veículo. 
-                            Na Water Fix Custom, somos especialistas em restaurar painéis de F1000 e outras caminhonetes,
-                            eliminando rachaduras, desbotamento e corrigindo danos estruturais. 
-                            Nosso processo minucioso devolve a aparência e a funcionalidade de fábrica.
+                            O tempo e o sol são cruéis com o painel. Nós restauramos a estrutura, 
+                            eliminamos rachaduras profundas e refazemos a textura original. 
+                            Seu painel volta a ser novo, valorizando todo o interior da caminhonete.
                         </p>
                     </div>
                 </div>
 
-                <div class="sobre-content">
-                    <div class="text">
-                        <h3 class="sub-titulo-sobre">Renovação de Forros de Porta</h3>
-                        <p>
-                            Forros de porta desgastados, sujos ou danificados comprometem a estética e o conforto do interior.
-                            Nós recuperamos forros de porta, seja o tecido, o courvin ou a própria base de plástico. 
-                            Com técnicas especializadas, restauramos a rigidez, a cor e a textura original.
-                        </p>
+                <div class="service-row-card">
+                    <div class="service-img-wrapper">
+                        <div class="img-half">
+                            <img src="src/images/Porta-antes.webp" alt="Porta Antes">
+                            <div class="status-label">Antes</div>
+                        </div>
+                        <div class="img-half">
+                            <img src="src/images/Porta-depois.webp" alt="Porta Depois">
+                            <div class="status-label">Depois</div>
+                        </div>
                     </div>
-                    <img src="/src/images/Porta.jpg" alt="Restauração de Forro de Porta (Antes e Depois)" class="imagens-home">
-                </div>
-
-                <div class="sobre-content">
-                    <img src="/src/images/Pintura hidrografica.jpg" alt="Customização com Pintura Hidrográfica (WTP)" class="imagens-home">
-                    <div class="text">
-                        <h3 class="sub-titulo-sobre">Customização Exclusiva com WTP</h3>
+                    <div class="service-text-wrapper">
+                        <h3>Forros de Porta</h3>
                         <p>
-                            Além da restauração, oferecemos customização com Pintura Hidrográfica (Water Transfer Printing) 
-                            para tornar seu veículo único. Aplicamos padrões de madeira, fibra de carbono, 
-                            camuflado ou outros designs exclusivos em peças de motos, triciclos e carros.
+                            Não adianta um painel novo com forros de porta caindo. 
+                            Recuperamos a base de fibra/plástico, trocamos o tecido ou courvin 
+                            e restauramos os puxadores. Conforto visual e tátil garantido.
                         </p>
                     </div>
                 </div>
 
-                 <div class="sobre-content">
-                     <div class="text">
-                        <h3 class="sub-titulo-sobre">Partes Plásticas Internas</h3>
+                <div class="service-row-card">
+                    <div class="service-img-wrapper">
+                        <div class="img-half">
+                            <img src="src/images/Antes-Pintura.webp" alt="WTP Antes">
+                            <div class="status-label">Antes</div>
+                        </div>
+                        <div class="img-half">
+                            <img src="src/images/Depois-Pinttura.webp" alt="WTP Depois">
+                            <div class="status-label">Depois</div>
+                        </div>
+                    </div>
+                    <div class="service-text-wrapper">
+                        <h3>Pintura Hidrográfica</h3>
                         <p>
-                            Pequenos detalhes fazem a diferença. Acabamentos de coluna, consoles, 
-                            porta-luvas e botões são restaurados, trazendo a cor e a textura originais 
-                            de volta e garantindo um acabamento impecável.
+                            Quer exclusividade? A tecnologia WTP permite aplicar padrões de madeira nobre, 
+                            fibra de carbono esportiva ou camuflados em peças complexas. 
+                            Acabamento automotivo de alta resistência e brilho.
                         </p>
                     </div>
-                    <img src="src/images/Todas as partes de plastico.jpg" alt="Restauração de Plásticos Internos" class="imagens-home">
+                </div>
+
+                <div class="service-row-card">
+                    <div class="service-img-wrapper">
+                        <div class="img-half">
+                            <img src="src/images/Interior-antes.webp" alt="Interior Antes">
+                            <div class="status-label">Antes</div>
+                        </div>
+                        <div class="img-half">
+                            <img src="src/images/Interior-depois.webp" alt="Interior Depois">
+                            <div class="status-label">Depois</div>
+                        </div>
+                    </div>
+                    <div class="service-text-wrapper">
+                        <h3>Plásticos Internos</h3>
+                        <p>
+                            Botões apagados, cinzeiros quebrados, molduras riscadas. 
+                            Nossa restauração de detalhes devolve a cor preta/cinza original 
+                            e remove as marcas de uso que envelhecem o veículo.
+                        </p>
+                    </div>
                 </div>
 
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
     <footer class="site-footer">
         <div class="container">
             <p>&copy; 2025 Water Fix. Todos os direitos reservados.</p>
@@ -118,4 +158,4 @@
 
 </body>
 
-</html>
+</html> 
