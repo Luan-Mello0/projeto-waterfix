@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url(../styles/header.css);
 @import url(/src/styles/secao-topo-home.css);
 @import url(/src/styles/produtos-home.css);
 @import url(/src/styles/footer.css);
 @import url(/src/styles/secao-sobre.css);
-@import url(/src/styles/servicos.css);
-
-
-
+@import url(/src/styles/servico.css);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {

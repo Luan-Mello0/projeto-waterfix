@@ -3,6 +3,7 @@
     background-color: #1A1A1A;
     padding: 10px;
     padding-bottom: 3rem;
+    scroll-margin-top: 9rem;
 }
 
 #p-meio-sobre {
@@ -11,12 +12,20 @@
     border-radius: 10px;
 }
 
-#sobre-water-fix{
+#sobre-water-fix {
     margin-top: 1.2rem;
 }
 
-#tirar-imagem{
+#tirar-imagem {
     display: none;
+}
+
+#perfil-home-1{
+    display: none;
+}
+
+#perfil-home-2{
+    margin-top: 2rem;
 }
 
 .imagens-home {
@@ -66,11 +75,27 @@
     .text p {
         margin-top: 1rem;
         font-size: 1.3rem;
-        line-height: 1.5rem;
+        line-height: 1.6rem;
     }
 
-    #tirar-imagem{
-    display: flex;
+    #sobre{
+        scroll-margin-top: 6rem;
+    }
+
+    #tirar-imagem {
+        display: flex;
+    }
+
+    #perfil-home-1{
+        display: flex;
+    }
+
+    #perfil-home-2{
+        display: none;
+    }
+    
+    #p-meio-sobre {
+    line-height: 2rem;
 }
 
     /*.sobre-content img {
