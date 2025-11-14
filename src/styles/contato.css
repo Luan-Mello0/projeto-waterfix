@@ -1,0 +1,107 @@
+/* fundo */
+body {
+    background-color: #1A1A1A;
+}
+
+#contato {
+    padding: 6rem 2%;
+}
+
+.frase-contato {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #efe7b0;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAPA */
+.mapa-embed {
+    width: 100%;
+    height: 800px;
+    max-width: 700px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 22px rgba(0,0,0,0.5);
+}
+
+/* bloco de informações */
+.info-contato {
+    background: #1c1c1c;
+    padding: 2.8rem;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+.info-contato p {
+    font-size: 1.3rem;
+    color: #efe7b0;
+    margin-bottom: 1rem;
+}
+
+.info-contato .link {
+    color: #ffe89c;
+    text-decoration: none;
+}
+
+.info-contato .link:hover {
+    text-decoration: underline;
+}
+
+/* a função que deixa o botão instagram com brilho e hover */
+.icon-instagram {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1.2rem 2.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 18px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg,  #833ab4, #fd1d1d, #fcb045);
+    box-shadow: 0 0 18px rgba(255, 0, 160, 0.5);
+    transition: 0.3s ease;
+}
+
+.btn-instagram:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 35px rgba(255, 0, 160, 0.9);
+}
+
+/* esse é o responsivo */
+@media (max-width: 900px) {
+    .sobre-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-contato {
+        margin-top: 2rem;
+    }
+
+    .mapa-embed {
+        height: 350px;
+    }
+}
+
+.site-footer {
+    width: 100%;            
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;       
+    margin-right: -50vw;
+    background-color: #333;   
+    padding: 2rem 0;
+    text-align: center;
+}
