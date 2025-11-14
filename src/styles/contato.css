@@ -5,6 +5,7 @@ body {
 
 #contato {
     padding: 6rem 2%;
+    min-width: 630px;
 }
 
 .frase-contato {
@@ -92,16 +93,4 @@ body {
     .mapa-embed {
         height: 350px;
     }
-}
-
-.site-footer {
-    width: 100%;            
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;       
-    margin-right: -50vw;
-    background-color: #333;   
-    padding: 2rem 0;
-    text-align: center;
 }
