@@ -8,6 +8,10 @@ body {
     min-width: 630px;
 }
 
+.text h3{
+    color: #ff8730;
+}
+
 .frase-contato {
     text-align: center;
     font-size: 1.6rem;
@@ -39,7 +43,7 @@ body {
 
 .info-contato p {
     font-size: 1.3rem;
-    color: #efe7b0;
+    color: #f8f8f8;
     margin-bottom: 1rem;
 }
 
