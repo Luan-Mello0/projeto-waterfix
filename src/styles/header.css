@@ -28,6 +28,7 @@ header {
             left: 0;
             padding: 1rem;
             border-bottom: 3px solid #c47b22;
+            z-index: 101;
 
             &.show {
                 display: flex;
