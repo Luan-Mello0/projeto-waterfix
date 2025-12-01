@@ -33,3 +33,13 @@ HTML5 Semântico
 CSS3 (Flexbox, Grid Layout, Animações e Media Queries)
 
 JavaScript (ES6+) (Manipulação do DOM para funcionalidades interativas como menu mobile e galeria de fotos)
+
+👨🏻‍💻 Alunos
+
+Luan Araujo Mello - 3ESW
+Felipe Souza de Jesus - 3ADS
+Jonas Augusto Teodoro de Oliveira - 3ADS
+
+🖥️ Site: https://projeto-waterfix.vercel.app/index.html
+
+
