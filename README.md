@@ -36,9 +36,9 @@ JavaScript (ES6+) (Manipulação do DOM para funcionalidades interativas como me
 
 👨🏻‍💻 Alunos
 
-Luan Araujo Mello - 3ESW
-Felipe Souza de Jesus - 3ADS
-Jonas Augusto Teodoro de Oliveira - 3ADS
+Luan Araujo Mello - 3ESW <br>
+Felipe Souza de Jesus - 3ADS <br>
+Jonas Augusto Teodoro de Oliveira - 3ADS <br>
 
 🖥️ Site: https://projeto-waterfix.vercel.app/index.html
 
